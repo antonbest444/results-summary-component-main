@@ -114,12 +114,13 @@ footer p {
   position: absolute;
   left: 40px;
 }
+
+/* Transparency Colors Block */
+
 .stats__block div:nth-of-type(1) {
   background-color: hsl(0, 100%, 67%, 0.1);
   border-radius: 5px;
 }
-
-/* Transparency Colors Block */
 
 .stats__block div:nth-of-type(2) {
   background-color: hsl(39, 100%, 56%, 0.1);
@@ -152,12 +153,13 @@ footer p {
 
 /* Transparency Font */
 
-.stats__block--bold {
+.stats__block div span:nth-of-type(1) {
+  color: rgb(32, 31, 31);
   font-weight: 600;
 }
 
 .stats__block div p:nth-of-type(2) {
-  color: var(--nclr-light-lavender);
+  color: var(--nclr-dark-gray-blue);
 }
 
 /* Button */
